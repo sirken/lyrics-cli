@@ -39,21 +39,25 @@ See the [lyrics-extractor readme](https://github.com/Techcatchers/PyLyrics-Extra
 ## Usage Examples
 
 Search using artist and any song title words:
+
     ```console
     python3 lyrics.py artist song title
     ```
 
 Or execute directly:
+
     ```console
     ./lyrics.py artist song title
     ```
 
 Search using any song title words:
+
     ```console
     ./lyrics.py song title words
     ```
 
 Or run without input get a prompt:
+
     ```console
     ./lyrics.py
     Lyrics search:
