@@ -22,19 +22,19 @@ See the [lyrics-extractor readme](https://github.com/Techcatchers/PyLyrics-Extra
 ## Installation
 
 1. Modify the script with your API key and Engine ID:
-  ```python
-  extract_lyrics = Song_Lyrics(GCS_API_KEY, GCS_ENGINE_ID)
-  ```
+    ```python
+    extract_lyrics = Song_Lyrics(GCS_API_KEY, GCS_ENGINE_ID)
+    ```
 
 2. If you want to execute the script directly:
-  ```console
-  chmod +x lyrics.py
-  ```
+    ```console
+    chmod +x lyrics.py
+    ```
 
 3. (Optional) If you want to use the GUI script, install the python3-tk library for your distro (Debian for example):
-  ```console
-  sudo apt install python3-tk
-  ```
+    ```console
+    sudo apt install python3-tk
+    ```
 
 ## Usage Examples
 
