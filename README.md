@@ -2,13 +2,13 @@
 
 A basic CLI lyrics search in Python 3, using the [lyrics-extractor](https://github.com/Techcatchers/PyLyrics-Extractor) library.
 
-Because I spend a lot of time in the terminal, I wanted the most straight-forward way to search for lyrics from the CLI without having to know the exact song name, or even the exact spelling. The only thing returned are lyrics for the best match.
+Because I spend a lot of time in the terminal, I wanted the most straight-forward way to search for lyrics from the CLI without knowing the exact song name or title, or by searching for some of the lyrics. This script returns the lyrics of the best match for your search terms.
 
 ## Key features:
 
 * CLI-only version
 * TK GUI version as well
-* Library supports flexible input (mix and match artist and song terms)
+* Library supports flexible input (artist name, title, lyrics)
 * Library can handle misspellings
 
 ## Prerequisites
@@ -38,19 +38,19 @@ See the [lyrics-extractor readme](https://github.com/Techcatchers/PyLyrics-Extra
 
 ## Usage Examples
 
-Search using artist and any song title words:
+Search using any combination of artist, title, or lyrics:
 ```console
-python3 lyrics.py artist song title
+python3 lyrics.py artist title lyrics
 ```
 
 Or execute directly:
 ```console
-./lyrics.py artist song title
+./lyrics.py artist artist title lyrics
 ```
 
-Search using any song title words:
+Search using song lyrics:
 ```console
-./lyrics.py song title words
+./lyrics.py some song lyrics
 ```
 
 Or run without input get a prompt:
