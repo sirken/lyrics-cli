@@ -14,6 +14,11 @@ Because I spend a lot of time in the terminal, I wanted the most straight-forwar
 ## Prerequisites
 
 * Install required [required libraries](https://github.com/Techcatchers/PyLyrics-Extractor/blob/master/README.md#installation)
+
+   ```console
+   pip install -r requirements.txt
+   ```
+
 * Create Google API key
 * Create Engine ID
 
@@ -23,7 +28,7 @@ See the [lyrics-extractor readme](https://github.com/Techcatchers/PyLyrics-Extra
 
 1. Modify the script with your API key and Engine ID:
     ```python
-    extract_lyrics = Song_Lyrics(GCS_API_KEY, GCS_ENGINE_ID)
+    extract_lyrics = SongLyrics(GCS_API_KEY, GCS_ENGINE_ID)
     ```
 
 2. If you want to execute the script directly:
